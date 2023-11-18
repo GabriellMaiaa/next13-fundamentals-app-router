@@ -5,3 +5,11 @@ where the pages are inside
 Works closely like a angular.component
 
 ->The layout can be implemented in all route folders, as a way to have something present in every part of that component
+
+-> It is also possible to have a shared layout, where a folder is created with two folders inside, example:
+A login page and a registration page, and in them we can have, within the mother page, a layout that 
+is shared between both, as is in the auth folder
+
+-> When you want a folder name not to appear in the route, you must place () around the name
+
+-> And when we have things that need an id, like products, we must create a separate folder with [] around the name, and pass the tsx code into it
