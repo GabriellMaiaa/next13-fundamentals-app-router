@@ -12,15 +12,6 @@ is shared between both, as is in the auth folder
 
 -> When you want a folder name not to appear in the route, you must place () around the name
 
-<<<<<<< HEAD
--> And when we have things that need an id, like products, we must create a separate folder with [] around the name, and pass the tsx code into it
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
--> And when we have things that need an id, like products, we must create a separate folder with [] around the name, and pass the tsx code into it
-
--> everything created in next is done server-side, hence the name React server
-
 Os Server components são aqueles onde são feitos no Node,
 e não possuem Javascript no lado do cliente.
 
@@ -28,10 +19,13 @@ Os Client componentes, tem o Javascript enviado ao navegador,
 e possui interatividade por meio do JS.
 -> E para usar o client component basta vocÊ adicionar:
 'use client'
-=======
--> And when we have things that need an id, like products, we must create a separate folder with [] around the name, and pass the tsx code into it
->>>>>>> 3a919cb793e84c4da3c9e17312da3eec23d46b5d
-=======
--> And when we have things that need an id, like products, we must create a separate folder with [] around the name, and pass the tsx code into it
->>>>>>> 3a919cb793e84c4da3c9e17312da3eec23d46b5d
->>>>>>> main-old
+
+-> Hidratação é pegar um HTML totalmente estático e dar dinamicidade
+para ele acrescentando JS.
+|-> Um comp com use client foi hidratado
+
+-> Os componentes podem ser assícronos, fazendo que o HTML só seja exibido
+após o completamento da promise
+
+O next é excelente para a parte de SEO de uma página, pois como a renderização
+vem pelo lado servidor, não há uma demora no carregamento da tela.
