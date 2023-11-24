@@ -29,3 +29,8 @@ após o completamento da promise
 
 O next é excelente para a parte de SEO de uma página, pois como a renderização
 vem pelo lado servidor, não há uma demora no carregamento da tela.
+
+-> Sempre quando você tiver um arquivo que tiver carregamento de dados, com chamada de api
+no mesmo diretório, você pode criar uma arquivo de Loading, com tempo baseado no timeout
+E se for posto na raiz src, o loading vai ser aplicar para todos os componentes que tiverem 
+uma chamada fetch e timeout
