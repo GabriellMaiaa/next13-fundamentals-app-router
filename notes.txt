@@ -34,3 +34,7 @@ vem pelo lado servidor, não há uma demora no carregamento da tela.
 no mesmo diretório, você pode criar uma arquivo de Loading, com tempo baseado no timeout
 E se for posto na raiz src, o loading vai ser aplicar para todos os componentes que tiverem 
 uma chamada fetch e timeout
+
+OBS - Quando sua aplicação tiver pouca interatividade, você pode criar componentes fora a parte, como
+por exemplo um botão. Pois quanto menos client 0components tiver, melhor e mais leve nossa
+aplicação fica
