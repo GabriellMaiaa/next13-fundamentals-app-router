@@ -38,3 +38,7 @@ uma chamada fetch e timeout
 OBS - Quando sua aplicação tiver pouca interatividade, você pode criar componentes fora a parte, como
 por exemplo um botão. Pois quanto menos client 0components tiver, melhor e mais leve nossa
 aplicação fica
+
+OBS: Quando vocÊ criar um client component, os outros files dentro dessa pasta serão automaticamente client
+components. E para muda-los e transforma-los em server você deve passar como children props a página de componente
+que é client, e dentro da paghe.tsx, passar o componente que vc quer que seja server
