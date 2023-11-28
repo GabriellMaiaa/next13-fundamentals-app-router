@@ -42,3 +42,8 @@ aplicação fica
 OBS: Quando vocÊ criar um client component, os outros files dentro dessa pasta serão automaticamente client
 components. E para muda-los e transforma-los em server você deve passar como children props a página de componente
 que é client, e dentro da paghe.tsx, passar o componente que vc quer que seja server
+
+OBSS: Qudo importamos um server component com assíncronismo, a page na qual ele foi importado só exibirá seu conteúdo
+quando a função assíncrona for executada
+-> Mas para resolver isso, usamos a SuspenseApi do React, onde deve ser importada e utilizada como um componenteem 
+volta do comp com a função assíncrona
